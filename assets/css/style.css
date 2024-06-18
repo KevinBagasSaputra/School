@@ -40,8 +40,8 @@ nav .container ul li{
 }
 
 nav .container ul li .judul{
-    margin-left: 80px;
-    margin-right: 240px;
+    margin-left: 60px;
+    margin-right: 20px;
 
     font-weight: 900;
     color: white;
@@ -71,6 +71,14 @@ nav .container ul li a:hover{
     color: white;
     
 }
+
+nav .container ul li .login:hover{
+    box-shadow: 10px 50px 200px 2px red;
+}
+
+nav .container ul li .register:hover{
+    box-shadow: 10px 50px 200px 2px rgb(5, 85, 204);
+}
 /* NAVBAR END */
 
 
@@ -93,6 +101,7 @@ nav .container ul li a:hover{
     width: 1250px;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 /* HERO END */
 
@@ -107,12 +116,16 @@ nav .container ul li a:hover{
     position: relative;
 }
 
+
+
 .info .container{
     box-shadow: 0 0 4px 0.5px;
     background-color: white;
 
     padding: 20px;
 }
+
+
 
 .info .container p{
     color: red;
@@ -126,6 +139,8 @@ nav .container ul li a:hover{
 
     width: 95px;
 }
+
+
 
 
 
@@ -308,3 +323,132 @@ nav .container ul li a:hover{
     text-align: center;
 }
 /* Footer END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN BLADE PHP START*/
+
+/* NAVBAR START */
+nav .container ul li .akun-2:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #FBB307;
+    text-underline-offset: 20px;
+    transition: all 550ms ease;
+
+    box-shadow: 10px 50px 200px 2px;
+
+    color: #FBB307;
+    
+
+    box-shadow: 10px 50px 200px 2px #FBB307;
+
+}
+
+
+nav .container ul li .logout-2:hover{
+        text-decoration-line: underline;
+        text-decoration-color: red;
+        text-underline-offset: 20px;
+        transition: all 550ms ease;
+    
+        box-shadow: 10px 50px 200px 2px;
+    
+        color: red;
+        
+    
+        box-shadow: 10px 50px 200px 2px red;
+}
+
+/* NAVBAR END */
+
+
+
+
+
+
+
+/* INFO START */
+
+.info2{
+    width: 1200px;
+    margin: auto;
+
+    margin-top: -80px;
+    position: relative;
+
+}
+
+.info2 .container .background-info2{
+    background-image: url('https://img.freepik.com/free-vector/abstract-decorative-circular-stripes-seamless-pattern-design_1035-25453.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.info2 .container{
+    box-shadow: 0 0 4px 0.5px;
+    background-color: white;
+
+    padding: 20px;
+
+    /* opacity: 0.8; */
+
+}
+
+.info2 .container .p2{
+    color: #026A49;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: white;
+    padding: 2px;
+
+    border: 3px solid #026A49;
+    border-radius: 6px;
+
+    width: 101px;
+}
+/* INFO END */
+
+
+/* DATA MAPEL START */
+.mapel{
+    margin: auto;
+    width: 1200px;
+}
+
+.mapel .container{
+    padding: 40px;
+}
+
+.mapel .container table{
+    display: flex;
+}
+
+.mapel .container table tr th{
+    width: 1100px;
+    background-color: #FBB307;
+}
+
+.mapel .container table tr td{
+    text-align: center;
+}
+.mapel .container table tr .td1{
+    background-color: rgb(192, 192, 192);
+    padding: 1px;
+}
+
+
+/* DATA MAPEL END */
+
+/* MAIN BLADE PHP END*/
+
